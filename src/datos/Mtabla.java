@@ -67,7 +67,7 @@ public class Mtabla extends AbstractTableModel {
                 datos[rowIndex][columnIndex] = String.valueOf(demultiplexorExpresion.getValor());
 
                 matriz.insert(datos[rowIndex][columnIndex],rowIndex,columnIndex);
-                List<Object> data = matriz.obtenerDatosMatriz();
+                
             }
             else if((Character.isLetter(((String) aValue).charAt(0)))) {
                 datos[rowIndex][columnIndex] = (String) aValue;
